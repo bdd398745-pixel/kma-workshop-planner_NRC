@@ -8,7 +8,7 @@ import math
 from io import BytesIO
 
 st.set_page_config(page_title="Mahindra NRC RO Planner (Fixed Clustering)", layout="wide")
-st.title("Mahindra NRC RO Planner — Fixed clustering by Max RO")
+st.title("Mahindra Suggested Workshop Planner Based on NRC RO")
 
 st.sidebar.header("Inputs / Controls")
 max_ro = st.sidebar.slider("Max RO per cluster", 1000, 10000, 6000, step=500)
